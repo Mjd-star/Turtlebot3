@@ -19,7 +19,9 @@ This project aims to simulate how the robot discovers its environment in Gazebo 
 2. Install TurtleBot3 Packages
 
 `$ sudo apt-get install ros-melodic-dynamixel-sdk`
+
 `$ sudo apt-get install ros-melodic-turtlebot3-msgs`
+
 `$ sudo apt-get install ros-melodic-turtlebot3`
 
 ## 2.Install Simulation Package
