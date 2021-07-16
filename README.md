@@ -1,10 +1,9 @@
-### Turtlebot3 -gazebo & SLAM
-This project aims to simulate how the robot discovers its environment in Gazebo while constructing it as a map using SLAM. This is accomplished through the use of an online version of ROS.
+## Turtlebot3 -gazebo & SLAM
+This project aims to simulate how the robot discovers its environment in Gazebo while constructing it as a map using SLAM. This is accomplished through the use of an online version of ROS (https://app.theconstructsim.com/#/Home) along with robots from Turtlebot (https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/).
 
 ## 1.PC setup
-
 1. Install Dependent ROS 1 Packages
- $ sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-joy \
+ `$ sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-joy \
   ros-kinetic-teleop-twist-keyboard ros-kinetic-laser-proc \
   ros-kinetic-rgbd-launch ros-kinetic-depthimage-to-laserscan \
   ros-kinetic-rosserial-arduino ros-kinetic-rosserial-python \
@@ -12,7 +11,7 @@ This project aims to simulate how the robot discovers its environment in Gazebo 
   ros-kinetic-rosserial-msgs ros-kinetic-amcl ros-kinetic-map-server \
   ros-kinetic-move-base ros-kinetic-urdf ros-kinetic-xacro \
   ros-kinetic-compressed-image-transport ros-kinetic-rqt* \
-  ros-kinetic-gmapping ros-kinetic-navigation ros-kinetic-interactive-markers
+  ros-kinetic-gmapping ros-kinetic-navigation ros-kinetic-interactive-markers `
 2. Install TurtleBot3 Packages
 $ sudo apt-get install ros-melodic-dynamixel-sdk
 $ sudo apt-get install ros-melodic-turtlebot3-msgs
