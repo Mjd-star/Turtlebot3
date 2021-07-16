@@ -24,11 +24,24 @@ This project aims to simulate how the robot discovers its environment in Gazebo 
 
 `$ sudo apt-get install ros-melodic-turtlebot3`
 
+ 3. Set TurtleBot3 Model Name
+
+choose the Trurtlebot you want to work with:
+
+In case of TurtleBot3 Burger
+
+`echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc`
+
+In case of TurtleBot3 Waffle Pi
+
+`echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashr`
+
 ## 2.Install Simulation Package
 $ cd ~/catkin_ws/src/
 $ git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
 $ cd ~/catkin_ws && catkin_make
 
+ Set TurtleBot3 Model Name
 choose the Trurtlebot you want to work with:
 
 In case of TurtleBot3 Burger
@@ -36,7 +49,7 @@ In case of TurtleBot3 Burger
 echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
 In case of TurtleBot3 Waffle Pi
 
-echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
+echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashr
 
 ## 3.Launch Simulation World
 Three simulation environments are prepared for TurtleBot3. Please select one of these environments to launch Gazebo.
