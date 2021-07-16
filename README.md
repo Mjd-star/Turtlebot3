@@ -36,20 +36,16 @@ In case of TurtleBot3 Waffle Pi
 
 `echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashr`
 
-## 2.Install Simulation Package
-$ cd ~/catkin_ws/src/
-$ git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
-$ cd ~/catkin_ws && catkin_make
+## 2.Simulation
+## Gazebo Simulation
+## 1.Install Simulation Package
+`$ cd ~/catkin_ws/src/`
 
- Set TurtleBot3 Model Name
-choose the Trurtlebot you want to work with:
+`$ git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git`
 
-In case of TurtleBot3 Burger
+`$ cd ~/catkin_ws && catkin_make`
 
-echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
-In case of TurtleBot3 Waffle Pi
 
-echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashr
 
 ## 3.Launch Simulation World
 Three simulation environments are prepared for TurtleBot3. Please select one of these environments to launch Gazebo.
