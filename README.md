@@ -47,26 +47,38 @@ In case of TurtleBot3 Waffle Pi
 
 
 
-## 3.Launch Simulation World
+## 2.Launch Simulation World
 Three simulation environments are prepared for TurtleBot3. Please select one of these environments to launch Gazebo.
 
 
-![2021-07-17](https://user-images.githubusercontent.com/85651071/126015680-91ceddad-b11a-4293-9989-c42252fe19a7.png)
 
-$ export TURTLEBOT3_MODEL=burger
-$ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+![2021-07-17](https://user-images.githubusercontent.com/85651071/126017239-d1c2c447-b114-4b1b-9d3d-a127da7aca18.png)
 
 
-![2021-07-17 (1)](https://user-images.githubusercontent.com/85651071/126016227-18e18c2a-e964-4809-9aef-28010dfb9963.png)
-
-$ export TURTLEBOT3_MODEL=waffle
-$ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 
-![2021-07-17 (2)](https://user-images.githubusercontent.com/85651071/126016274-097323d9-be39-46be-96ed-a002c5472136.png)
+`$ export TURTLEBOT3_MODEL=burger`
 
-$ export TURTLEBOT3_MODEL=waffle_pi
-$ roslaunch turtlebot3_gazebo turtlebot3_house.launch
+`$ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch`
+
+
+
+![2021-07-17 (5)](https://user-images.githubusercontent.com/85651071/126017244-5ae9d53d-b768-4db8-b487-a40db0b6e610.png)
+
+
+
+`$ export TURTLEBOT3_MODEL=waffle`
+
+`$ roslaunch turtlebot3_gazebo turtlebot3_world.launch`
+
+
+
+![2021-07-17 (4)](https://user-images.githubusercontent.com/85651071/126017252-e6f31e01-c06d-40cc-8868-541ec01fcda9.png)
+
+
+`$ export TURTLEBOT3_MODEL=waffle_pi`
+
+`$ roslaunch turtlebot3_gazebo turtlebot3_house.launch`
 
 
 
