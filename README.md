@@ -81,9 +81,40 @@ Three simulation environments are prepared for TurtleBot3. Please select one of 
 `$ roslaunch turtlebot3_gazebo turtlebot3_house.launch`
 
 
+## SLAM Simulation
+ ## 1.Launch Simulation World
+ 
+` $ export TURTLEBOT3_MODEL=burger`
+
+`$ roslaunch turtlebot3_gazebo turtlebot3_world.launch`
 
 
+## 2.Run SLAM Node
+`$ export TURTLEBOT3_MODEL=burger`
 
+`$ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping`
+
+
+## 3.Run Teleoperation Node
+`$ export TURTLEBOT3_MODEL=burger`
+````
+```
+$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+
+ Control Your TurtleBot3!
+ ---------------------------
+ Moving around:
+        w
+   a    s    d
+        x
+
+ w/x : increase/decrease linear velocity
+ a/d : increase/decrease angular velocity
+ space key, s : force stop
+
+ CTRL-C to quit
+```
+````
 
 
 
