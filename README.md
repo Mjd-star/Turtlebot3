@@ -97,26 +97,13 @@ Three simulation environments are prepared for TurtleBot3. Please select one of 
 
 ## 3.Run Teleoperation Node
 `$ export TURTLEBOT3_MODEL=burger`
-````
-```
-$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
- Control Your TurtleBot3!
- ---------------------------
- Moving around:
-        w
-   a    s    d
-        x
-
- w/x : increase/decrease linear velocity
- a/d : increase/decrease angular velocity
- space key, s : force stop
-
- CTRL-C to quit
-```
-````
+`$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch`
 
 
+
+## 4.Save Map
+`$ rosrun map_server map_saver -f ~/map`
 
 
 
