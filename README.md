@@ -63,7 +63,8 @@ Three simulation environments are prepared for TurtleBot3. Please select one of 
 
 
 
-![2021-07-17 (5)](https://user-images.githubusercontent.com/85651071/126017244-5ae9d53d-b768-4db8-b487-a40db0b6e610.png)
+![2021-07-17 (3)](https://user-images.githubusercontent.com/85651071/126552708-a32b653d-f32c-415f-b950-fe93453983b5.png)
+
 
 
 
