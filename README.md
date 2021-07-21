@@ -129,9 +129,9 @@ Three simulation environments are prepared for TurtleBot3. Please select one of 
 ## 4.Save Map
 `$ rosrun map_server map_saver -f ~/map`
 
+![2021-07-17 (17)](https://user-images.githubusercontent.com/85651071/126553935-a1f08e01-d2bc-4525-a32e-821e0443551f.png)
 
 
-![2021-07-17 (13)](https://user-images.githubusercontent.com/85651071/126048756-541cc281-ae01-4572-a56b-c3afe2709a44.png)
 
 ![2021-07-17 (14)](https://user-images.githubusercontent.com/85651071/126048758-9bb6483c-0956-4198-81cf-58c3d84c6b58.png)
 
