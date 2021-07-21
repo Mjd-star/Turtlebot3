@@ -71,13 +71,19 @@ Three simulation environments are prepared for TurtleBot3. Please select one of 
 `$ roslaunch turtlebot3_gazebo turtlebot3_world.launch`
 
 
+![2021-07-17 (8)](https://user-images.githubusercontent.com/85651071/126553300-28e45e1d-7283-47b7-9050-fc1d31828ae5.png)
 
-![2021-07-17 (4)](https://user-images.githubusercontent.com/85651071/126017252-e6f31e01-c06d-40cc-8868-541ec01fcda9.png)
 
 
 `$ export TURTLEBOT3_MODEL=waffle_pi`
 
 `$ roslaunch turtlebot3_gazebo turtlebot3_house.launch`
+
+
+
+![2021-07-17 (4)](https://user-images.githubusercontent.com/85651071/126553353-333e7571-8c62-4baf-a48f-e4a5173f6e83.png)
+
+
 
 
 ## SLAM Simulation
